@@ -1,0 +1,40 @@
+body {
+ background-image: url('../../img/back-img.jpg');
+ background-size: cover;
+ background-position: top center;
+ color: white;
+ font-size: 30px;
+ text-align: center;
+}
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.img-size {
+    width: 25%;
+    height: 25%;
+    padding: 30px;
+}
+
+.text_blink {
+    text-decoration: none;
+    color: #6495ed;
+    display: inline-block;
+    animation: animation_text_blink 3s linear 0s infinite normal both;
+}
+@keyframes animation_text_blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
