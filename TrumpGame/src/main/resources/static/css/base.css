@@ -7,19 +7,25 @@ body {
  text-align: center;
 }
 
-/* .container {
+/*.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-} */
+}*/
 
-.img-size {
-    width: 25%;
-    height: 25%;
-    padding: 30px;
-}
+/*.center-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}*/
+
+/*.img-size {
+    height: 60%;
+    width: 50%;
+}*/
 
 .text_blink {
     text-decoration: none;
